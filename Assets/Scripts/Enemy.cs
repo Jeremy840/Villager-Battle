@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 
 public class Enemy : MonoBehaviour
 {
+    //Variables
     public float speed;
     private GameObject Player;
     public GameObject gold;
