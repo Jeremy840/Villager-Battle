@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -120,7 +121,7 @@ public class EnemySpawner : MonoBehaviour
         if (nextWave + 1 > waves.Length - 1)
         {
             nextWave = 0;
-            print("ALL WAVES COMPLETE looping");
+            SceneManager.LoadScene(4);
         }
         nextWave++;
         MainManager.Instance.nextWave = nextWave;

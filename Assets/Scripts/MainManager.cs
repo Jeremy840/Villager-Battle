@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MainManager : MonoBehaviour
 {
-   public static MainManager Instance;
+    public static MainManager Instance;
 
     public int gold;
 
@@ -20,7 +20,7 @@ public class MainManager : MonoBehaviour
     public float fireRateValue;
     public float throwPowerValue;
     public float moveSpeedValue;
-       
+
 
     private void Awake()
     {
@@ -36,5 +36,18 @@ public class MainManager : MonoBehaviour
     public void NewGoldValue(int gold)
     {
         MainManager.Instance.gold = gold;
+    }
+
+    public void newGame()
+    {
+        gold = 0;
+        nextWave = 0;
+        woodCount = 0;
+        bloodCount = 0;
+        crystalCount = 0;
+        damageValue = 50f;
+        fireRateValue = 10f;
+        moveSpeedValue = 4;
+
     }
 }

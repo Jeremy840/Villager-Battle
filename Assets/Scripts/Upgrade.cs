@@ -26,7 +26,7 @@ public class Upgrade : MonoBehaviour
 
     public void DamageUpgrade()
     {
-        ThrowWeapon.damageValue += 10;
+        ThrowWeapon.damageValue += 5;
         MainManager.Instance.damageValue = ThrowWeapon.damageValue;
         upgradeMenu.SetActive(false);
         Time.timeScale = 1f;
