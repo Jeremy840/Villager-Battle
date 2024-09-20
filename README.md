@@ -43,6 +43,7 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 ## Acknowledgments
 
+- A big thank you to @Blackthornprod for the awesome art assets provided in their free course! The art has been a perfect fit for Villager Battle, and it really helped bring the game to life. Your tutorials and resources have been invaluable in getting this project off the ground.
 - Unity Technologies for the game engine.
 
 ## Contact
