@@ -26,7 +26,7 @@ To run **Villager Battle** on your local machine, follow these steps:
 
 3. Open the project in Unity.
 
-4. Press the play button to start the game!
+4. Feel free to play or edit the game via Unity.
 
 ## Controls
 
